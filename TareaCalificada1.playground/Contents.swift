@@ -2,7 +2,9 @@
 
 import UIKit
 
-for numero in 0...100{  //Se inicializa el for de rango 0 a 100
+let rango = 0...100
+
+for numero in rango{  //Se inicializa el for de rango 0 a 100
     if numero % 5 == 0{ //Si el numero es divisible entre 5
         print("\(numero) Bingo!!!")
     }
